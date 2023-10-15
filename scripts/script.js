@@ -2,7 +2,6 @@ const sekunda = document.getElementById("sekunda");
 const minuta = document.getElementById("minuta");
 const godzina = document.getElementById("godzina");
 const dzien = document.getElementById("dzien");
-const miesiac = document.getElementById("miesiac");
 
 
 function sleep(ms) {
@@ -18,7 +17,6 @@ async function timer()
     {
         date = new Date();
         diff = nextyear - date;
-        miesiac.innerHTML = "?";
         dzien.innerHTML = Math.floor(diff / (1000 * 60 * 60 * 24));
         godzina.innerHTML = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         minuta.innerHTML = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
