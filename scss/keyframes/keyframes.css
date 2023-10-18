@@ -1,0 +1,16 @@
+@keyframes opacity_animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes test {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=keyframes.css.map */
