@@ -6,7 +6,7 @@
     opacity: 1;
   }
 }
-@keyframes test {
+@keyframes slide_up {
   from {
     transform: translateY(100%);
   }

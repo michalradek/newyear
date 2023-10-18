@@ -69,16 +69,16 @@ body {
         }
     }
     .timer_div:nth-child(1) {
-        animation: opacity_animation 2s 0s forwards, test 2s 0s ease-in-out;
+        animation: opacity_animation 2s 0s forwards, slide_up 1s 0s ease-in-out;
     }
     .timer_div:nth-child(2) {
-        animation: opacity_animation 2s 2s forwards, test 2s 2s ease-in-out;
+        animation: opacity_animation 2s 1s forwards, slide_up 1s 1s ease-in-out;
     }
     .timer_div:nth-child(3) {
-        animation: opacity_animation 2s 4s forwards, test 2s 4s ease-in-out;
+        animation: opacity_animation 2s 2s forwards, slide_up 1s 2s ease-in-out;
     }
     .timer_div:nth-child(4) {
-        animation: opacity_animation 2s 6s forwards, test 2s 6s ease-in-out;
+        animation: opacity_animation 2s 3s forwards, slide_up 1s 3s ease-in-out;
     }
         
 }
