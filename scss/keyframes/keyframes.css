@@ -1,4 +1,4 @@
-@keyframes opacity_animation {
+@keyframes opacity_animation_desktop {
   from {
     opacity: 0;
   }
@@ -12,5 +12,13 @@
   }
   to {
     transform: translateY(0);
+  }
+}
+@keyframes show_animation_mobile {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=keyframes.css.map */
